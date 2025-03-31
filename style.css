@@ -316,7 +316,7 @@
   }
 
   .candy-button.type-c {
-    background: linear-gradient(to bottom, var(--candy-purple), #8e44ad);
+    background: linear-gradient(to bottom, var(--candy-green), #2ecc71);
   }
 
   /* Disabled button styling */
