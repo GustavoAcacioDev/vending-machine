@@ -43,12 +43,11 @@ Este projeto consiste na implementação de uma máquina de vendas utilizando mo
 ## Estrutura do Projeto
 
 ```
-/seu-repositorio
+/vending-machine
 ├── index.html       # Estrutura principal da interface
 ├── styles.css       # Estilização do projeto
 ├── script.js        # Lógica da máquina de vendas
-├── README.md        # Documentação do projeto
-└── assets/          # Recursos como imagens e ícones
+└── README.md        # Documentação do projeto
 ```
 
 ## Autor
