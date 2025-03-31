@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CSS Candy Machine</title>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
 </head>
 <body>
   <div class="candy-machine">
@@ -61,7 +60,7 @@
         <div class="candy-price">R$ 7</div>
       </div>
       <div class="candy-type">
-        <div class="candy-sample purple"></div>
+        <div class="candy-sample green"></div>
         <div class="candy-type-label">Doce C</div>
         <div class="candy-price">R$ 8</div>
       </div>
@@ -69,20 +68,23 @@
     
     <div class="controls">
       <div class="buttons-section">
-        <div class="section-title">Inserir dinheiro</div>
+        <div class="section-title">
+          <p>Inserir dinheiro</p>
+          <p id="saldo"></p>
+        </div>
         <div class="buttons">
-          <div id="button-r1" class="candy-button type-c" onclick="tryInsertMoney(1)">R$ 1</div>
-          <div id="button-r2" class="candy-button type-a" onclick="tryInsertMoney(2)">R$ 2</div>
-          <div id="button-r5" class="candy-button type-c" onclick="tryInsertMoney(5)">R$ 5</div>
+          <div id="button-r1" class="candy-button type-a" onclick="adicionaDinheiro(1)">R$ 1</div>
+          <div id="button-r2" class="candy-button type-b" onclick="adicionaDinheiro(2)">R$ 2</div>
+          <div id="button-r5" class="candy-button type-c" onclick="adicionaDinheiro(5)">R$ 5</div>
         </div>
       </div>
       
       <div class="buttons-section">
         <div class="section-title">Selecionar bala</div>
         <div class="candy-buttons">
-          <div id="button-type-a" class="candy-button type-a" onclick="tryDispenseCandy('pink', 'A', 6)">Doce A</div>
-          <div id="button-type-b" class="candy-button type-b" onclick="tryDispenseCandy('blue', 'B', 7)">Doce B</div>
-          <div id="button-type-c" class="candy-button type-c" onclick="tryDispenseCandy('purple', 'C', 8)">Doce C</div>
+          <div id="button-type-a" class="candy-button type-a" onclick="compraDoce('A')">Doce A</div>
+          <div id="button-type-b" class="candy-button type-b" onclick="compraDoce('B')">Doce B</div>
+          <div id="button-type-c" class="candy-button type-c" onclick="compraDoce('C')">Doce C</div>
         </div>
       </div>
       
@@ -95,5 +97,6 @@
     </div>
   </div>
 </body>
+<script src="script.js"></script>
 </html>
 
