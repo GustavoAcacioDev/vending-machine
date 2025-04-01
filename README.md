@@ -1,5 +1,8 @@
 # Projeto: Máquina de Vendas com AFDs
 
+## Drive
+https://drive.google.com/drive/folders/1Irv6cDppulq0WCjgx9bINVmvlnW-zXzQ
+
 ## Descrição
 
 Este projeto consiste na implementação de uma máquina de vendas utilizando modelos de Autômatos Finitos Determinísticos (AFDs). A máquina aceita diferentes formas de pagamento, valida as transações e libera o produto conforme a entrada do usuário. O objetivo é demonstrar a aplicação de conceitos de Teoria dos Autômatos e Lógica de Estado Finito em um sistema interativo.
