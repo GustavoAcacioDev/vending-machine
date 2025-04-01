@@ -181,6 +181,37 @@
                 0 2px 5px rgba(0, 0, 0, 0.3);
   }
 
+  .candy-sample.pink{
+    background-color: #ff5e94;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    box-shadow: inset 2px 2px 5px rgba(255, 255, 255, 0.5),
+                inset -2px -2px 5px rgba(0, 0, 0, 0.2),
+                0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  .candy-sample.green{
+    background-color: #2ecc71;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    box-shadow: inset 2px 2px 5px rgba(255, 255, 255, 0.5),
+                inset -2px -2px 5px rgba(0, 0, 0, 0.2),
+                0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  .candy-sample.blue{
+    background-color: #3498db;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    box-shadow: inset 2px 2px 5px rgba(255, 255, 255, 0.5),
+                inset -2px -2px 5px rgba(0, 0, 0, 0.2),
+                0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
   .controls {
     padding: 15px;
   }
@@ -285,7 +316,7 @@
   }
 
   .candy-button.type-c {
-    background: linear-gradient(to bottom, var(--candy-purple), #8e44ad);
+    background: linear-gradient(to bottom, var(--candy-green), #2ecc71);
   }
 
   /* Disabled button styling */
